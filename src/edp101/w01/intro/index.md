@@ -1,7 +1,7 @@
 ---
 marp: true
 title: "[EDP 101] Introduction to Electronic Data Processing"
-description: "A.K.A how to use technology to make your life easier."
+description: "A.K.A how to use technology to make your life easier"
 ---
 
 # Course Introduction
