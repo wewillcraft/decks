@@ -7,10 +7,10 @@
   "scripts": {
     "clean": "rimraf dist/",
     "start:server": "http-server dist/ -a 0.0.0.0 -p 8080",
-    "start:deck": "marp --watch --input-dir courses/ --output dist/",
+    "start:deck": "marp --watch --input-dir src/ --output dist/",
     "start": "npm-run-all clean --parallel start:*",
-    "build:deck": "marp --no-stdin --input-dir courses/ --output dist/",
-    "prepare:rename": "node rename.js",
+    "build:deck": "marp --no-stdin --input-dir src/ --output dist/",
+    "prepare:rename": "node ./bin/rename.js",
     "prepare:copy": "cpy \"static/**/*\" dist/",
     "build": "npm-run-all --serial clean build:* prepare:*"
   },
