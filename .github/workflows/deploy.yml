@@ -37,11 +37,9 @@ jobs:
           npm i puppeteer --no-save
 
       - name: Build Marp slide deck
-        run: |
-          npm run build
-          touch ./dist/.nojekyll
+        run: npm run build
         env:
-          URL: https://wewillcraft.software/decks/
+          URL: https://decks.wewillcraft.software/
           LANG: en-US
 
       - name: Deploy
