@@ -1,6 +1,6 @@
 ---
 marp: true
-title: "We Will Craft"/
+title: "We Will Craft"
 description: "Public decks for the We Will Craft classes"
 ---
 
