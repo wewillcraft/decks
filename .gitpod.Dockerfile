@@ -1,5 +1,5 @@
-FROM marpteam/marp-cli
+FROM gitpod/workspace-full
 
 USER root
 
-RUN apt-get update
+RUN apt-get update && apt-get install -yq libgbm-dev
