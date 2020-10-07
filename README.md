@@ -5,18 +5,25 @@
 
 Public decks for the **We Will Craft** classes.
 
-## Classes
+## Courses
 
-- **EDP 101**: [Introduction to Electronic Data Processing](./src/edp101/)
+- **EDP 101**: [Introduction to Electronic Data Processing](https://decks.willcraft.software/edp101/)
 
-## Getting Started
+## Quick Start
 
-Install the [Marp extension for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
+1. Install the dependencies.
 
-```bash
-npm install
-npm start
-```
+    ```bash
+    npm install
+    ```
+
+2. Start the server.
+
+    ```bash
+    npm start
+    ```
+
+3. Open http://127.0.0.1:8080/.
 
 ## License
 
