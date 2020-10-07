@@ -10,8 +10,9 @@
     "start:deck": "marp --watch --input-dir courses/ --output dist/",
     "start": "npm-run-all clean --parallel start:*",
     "build:deck": "marp --no-stdin --input-dir courses/ --output dist/",
-    "rename": "node rename.js",
-    "build": "npm-run-all --serial clean build:* rename"
+    "prepare:rename": "node rename.js",
+    "prepare:copy": "cpy \"static/**/*\" dist/",
+    "build": "npm-run-all --serial clean build:* prepare:*"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^0.21.1",
