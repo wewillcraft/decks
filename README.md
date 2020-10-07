@@ -6,7 +6,14 @@ Public decks for the **We Will Craft** classes.
 
 ## Classes
 
-- **EDP 101**: [Introduction to Electronic Data Processing](./edp101/README.md)
+- **EDP 101**: [Introduction to Electronic Data Processing](./courses/edp101/README.md)
+
+## Getting Started
+
+```bash
+npm install
+npm start
+```
 
 ## License
 
