@@ -6,9 +6,11 @@ Public decks for the **We Will Craft** classes.
 
 ## Classes
 
-- **EDP 101**: [Introduction to Electronic Data Processing](./courses/edp101/README.md)
+- **EDP 101**: [Introduction to Electronic Data Processing](./src/edp101/)
 
 ## Getting Started
+
+Install the [Marp extension for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
 
 ```bash
 npm install
@@ -17,4 +19,4 @@ npm start
 
 ## License
 
-[MIT Licensed](./LICENSE.md).
+This project releases under the [MIT License](./LICENSE.md).

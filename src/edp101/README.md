@@ -5,4 +5,4 @@ Processing, and how it can make your life easier.
 
 ## Week 1
 
-- [Course Introduction](./w01/intro/README.md)
+- [Course Introduction](./w01/intro/)
