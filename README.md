@@ -1,6 +1,7 @@
 # decks
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wewillcraft/decks)
+[![We Will Craft Decks](https://img.shields.io/badge/decks-slideshow-blue)](https://decks.willcraft.software)
 
 Public decks for the **We Will Craft** classes.
 
