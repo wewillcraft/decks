@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Course Introduction
 
 EDP 101 - Week 1

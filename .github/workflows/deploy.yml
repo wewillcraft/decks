@@ -1,0 +1,54 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Detect Node version from .nvmrc
+        id: node_version
+        run: echo "::set-output name=nvmrc::$(cat .nvmrc)"
+
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ steps.node_version.outputs.nvmrc }}
+
+      - uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies and Puppeteer
+        run: |
+          npm ci
+          sudo apt-get install libgbm-dev
+          npm i puppeteer --no-save
+
+      - name: Build Marp slide deck
+        run: |
+          npm run build
+          touch ./dist/.nojekyll
+        env:
+          URL: https://wewillcraft.software/decks/
+          LANG: en-US
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.DECKS_PAGES_DEPLOY_KEY }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          keep_files: false
+          allow_empty_commit: true
