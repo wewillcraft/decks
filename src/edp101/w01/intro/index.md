@@ -1,16 +1,43 @@
 ---
 marp: true
-title: "[EDP 101] Introduction to Electronic Data Processing"
-description: "A.K.A how to use technology to make your life easier"
+title: "[EDP 101] Week 1 - Introduction to Electronic Data Processing"
+description: "a.k.a how to use technology to make your life easier"
+paginate: true
 ---
 
-# Course Introduction
+![bg right](https://source.unsplash.com/I_pOqP6kCOI/)
+
+# Introduction to Electronic Data Processing
 
 EDP 101 - Week 1
 
 ---
 
-## What is Electronic Data Processing?
+![bg left:33%](https://i.imgur.com/UsjQ03B.jpg)
+
+## About the teacher
+
+- swift as the coursing river
+- with all the force of a great typhoon
+- with all the strength of a raging fire
+- mysterious as the dark side of the moon
+* ...yeah
+
+---
+
+![bg left](https://source.unsplash.com/RLw-UC03Gwc/)
+
+## Remember, remember
+
+- Please keep your **User ID** for yourself.
+- Don't hesitate to ask questions. Satisfy your curiosity.
+- The teacher doesn't know every thing. But I bet Google Search does.
+- Everybody starts out as a beginner. Don't be afraid to try new things.
+- Tell me if I'm going too slow or too fast.
+
+---
+
+# What is Electronic Data Processing?
 
 ---
 
@@ -20,12 +47,85 @@ EDP 101 - Week 1
 
 ---
 
+![bg left](https://source.unsplash.com/7lryofJ0H9s/)
+
 ## Course Outline
 
-- Introduction to the Google Apps ecosystem
+- Introduction to the Google ecosystem
 - Capturing meaningful data using Google Forms
 - Visualizing your data using Google Data Studio
 
 ---
 
-## Thanks!
+![bg left](https://source.unsplash.com/-NPoYf8RGRw/)
+
+# The ecosystem
+
+- Search
+- YouTube
+- Drive
+- Docs
+- Sheets
+- Slides
+- Forms
+- Apps Scripts
+- Data Studio
+- ...and a whole lot more
+
+---
+
+![bg left](https://source.unsplash.com/LPylXWfMpgE/)
+
+# Google Search
+
+---
+
+![bg left](https://source.unsplash.com/2rCggxMjd_8/)
+
+# YouTube
+
+---
+
+![bg left](https://source.unsplash.com/8e2gal_GIE8/)
+
+# Google Drive
+
+---
+
+![bg left](https://source.unsplash.com/5cFwQ-WMcJU/)
+
+# Google Docs
+
+---
+
+![bg left](https://source.unsplash.com/I0yLAcAetNQ/)
+
+# Google Sheets
+
+---
+
+![bg left](https://source.unsplash.com/Rd9uwddKoRA/)
+
+# Google Slides
+
+---
+
+![bg left](https://source.unsplash.com/BkW8d0QGELY/)
+
+# Google Forms
+
+---
+
+![bg left](https://source.unsplash.com/sTnZRUJm-kI/)
+
+# Google Apps Scripts
+
+---
+
+![bg left](https://source.unsplash.com/Cg9QlLuX120/)
+
+# Google Data Studio
+
+---
+
+![bg contain](https://i.imgur.com/ZjJqoXO.png)

@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "rimraf dist/",
     "static:copy": "cpy \"static/**/*\" dist/",
-    "watch:server": "live-server --entry-file=dist/ --host=0.0.0.0 --port=8080 --watch=dist/",
+    "watch:server": "live-server dist/ --host=0.0.0.0 --port=8080 --watch=dist/",
     "watch:deck": "marp --watch --input-dir src/ --output dist/",
     "start": "npm-run-all --serial clean --parallel static:* watch:*",
     "build:deck": "marp --no-stdin --input-dir src/ --output dist/",
