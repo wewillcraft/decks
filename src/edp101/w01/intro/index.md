@@ -301,6 +301,26 @@ Try checking this [glossary](https://lovesdata.com/blog/google-data-studio-gloss
 
 ---
 
+### Calculating Age
+
+```
+=INT(YEARFRAC($BIRTH_DATE_COLUM2, TODAY()))
+```
+
+---
+
+### Working with checkboxes
+
+```
+=REGEXMATCH($MULTIPLE_CHOICE_COLUMN2, "some unique choice")
+```
+
+```
+=REGEXMATCH($MULTIPLE_CHOICE_COLUMN2, "another unique choice")
+```
+
+---
+
 ### Adding Data from another worksheet
 
 ```
