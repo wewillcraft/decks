@@ -304,7 +304,7 @@ Try checking this [glossary](https://lovesdata.com/blog/google-data-studio-gloss
 ### Calculating Age
 
 ```
-=INT(YEARFRAC($BIRTH_DATE_COLUM2, TODAY()))
+=INT(YEARFRAC($BIRTH_DATE_COLUMN2, TODAY()))
 ```
 
 ---
