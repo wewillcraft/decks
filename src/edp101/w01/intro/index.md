@@ -287,9 +287,7 @@ Creating your own Data Studio Dashboard
 # Metrics
 
 - is the result of applying an aggregation to a set of values
-- could come from the underlying data set, or be the result of implicitly or
-explicitly applying an aggregation function, such as `COUNT()`, `SUM()`, or
-`AVG()`
+- could come from the underlying data set, or be the result of implicitly or explicitly applying an aggregation function, such as `COUNT()`, `SUM()`, or `AVG()`
 
 ---
 
