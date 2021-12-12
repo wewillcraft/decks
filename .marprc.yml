@@ -1,0 +1,4 @@
+allowLocalFiles: true
+inputDir: ./src/
+output: ./dist
+html: true

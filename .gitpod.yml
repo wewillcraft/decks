@@ -5,8 +5,7 @@ tasks:
   - init: |
       npm ci
       npm i puppeteer --no-save
-    command:
-      npm start
+    command: npm run server
 
 ports:
   - port: 8080

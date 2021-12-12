@@ -10,9 +10,10 @@ Public decks for the **We Will Craft** classes.
 
 ---
 
-## Courses
+## Decks
 
-- [EDP 101: Introduction to Electronic Data Processing](/edp101)
+-   [Setup](./setup)
+-   [EDP 101: Introduction to Electronic Data Processing](./edp101)
 
 ---
 

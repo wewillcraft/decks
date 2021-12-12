@@ -6,43 +6,46 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+  export:
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+    runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          persist-credentials: false
 
-      - name: Detect Node version from .nvmrc
+      - name: detect node version from .nvmrc
         id: node_version
         run: echo "::set-output name=nvmrc::$(cat .nvmrc)"
 
-      - name: Install Node.js
-        uses: actions/setup-node@v1
+      - name: setup node
+        uses: actions/setup-node@v2
         with:
           node-version: ${{ steps.node_version.outputs.nvmrc }}
 
-      - uses: actions/cache@v1
+      - name: use cache
+        uses: actions/cache@v2
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install dependencies and Puppeteer
+      - name: install dependencies
         run: |
           npm ci
-          sudo apt-get install libgbm-dev
+          sudo apt install libgbm-dev
           npm i puppeteer --no-save
 
-      - name: Build Marp slide deck
-        run: npm run build
+      - name: export
+        run: npm run export
         env:
-          URL: https://decks.wewillcraft.software/
+          URL: https://decks.willcraft.software/
           LANG: en-US
 
-      - name: Deploy
+      - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.DECKS_PAGES_DEPLOY_KEY }}

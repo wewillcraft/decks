@@ -17,10 +17,10 @@ EDP 101 - Week 1
 
 ## About the teacher
 
-- swift as a coursing river
-- with all the force of a great typhoon
-- with all the strength of a raging fire
-- mysterious as the dark side of the moon
+-   swift as a coursing river
+-   with all the force of a great typhoon
+-   with all the strength of a raging fire
+-   mysterious as the dark side of the moon
 
 ---
 
@@ -28,10 +28,10 @@ EDP 101 - Week 1
 
 ## Remember, remember
 
-- Please keep your **User ID** for yourself.
-- Don't hesitate to ask questions. Satisfy your curiosity.
-- The teacher doesn't know everything. But I bet Google Search does.
-- Everybody starts out as a beginner. Don't be afraid to try new things.
+-   Please keep your **User ID** for yourself.
+-   Don't hesitate to ask questions. Satisfy your curiosity.
+-   The teacher doesn't know everything. But I bet Google Search does.
+-   Everybody starts out as a beginner. Don't be afraid to try new things.
 
 ---
 
@@ -39,10 +39,10 @@ EDP 101 - Week 1
 
 ## Remember, remember
 
-- Tell the teacher if the pace is too slow or too fast.
-- There will be assignments every now and then.
-- Materials are posted in the classroom.
-  - Repository for the decks can be found [here](https://github.com/wewillcraft/decks/tree/main/src/edp101).
+-   Tell the teacher if the pace is too slow or too fast.
+-   There will be assignments every now and then.
+-   Materials are posted in the classroom.
+    -   Repository for the decks can be found [here](https://github.com/wewillcraft/decks/tree/main/src/edp101).
 
 ---
 
@@ -51,10 +51,10 @@ EDP 101 - Week 1
 ---
 
 > **Electronic data processing (EDP)** can refer to the use of automated methods
-to process commercial data. Typically, this uses relatively simple, repetitive
-activities to process large volumes of similar information.
+> to process commercial data. Typically, this uses relatively simple, repetitive
+> activities to process large volumes of similar information.
 
-*- [Wikipedia](https://en.wikipedia.org/wiki/Electronic_data_processing)*
+_- [Wikipedia](https://en.wikipedia.org/wiki/Electronic_data_processing)_
 
 ---
 
@@ -67,9 +67,9 @@ activities to process large volumes of similar information.
 ![bg left](https://i.imgur.com/Z2XbxkK.jpg)
 
 > To the man who only has a hammer, everything he encounters begins to look like
-a nail.
+> a nail.
 
-*- Abraham Maslow*
+_- Abraham Maslow_
 
 ---
 
@@ -89,17 +89,17 @@ a nail.
 
 ## The Google ecosystem
 
-- Search
-- Gmail
-- YouTube
-- Drive
-- Docs
-- Sheets
-- Slides
-- Forms
-- Apps Scripts
-- Data Studio
-- ...and a whole lot more
+-   Search
+-   Gmail
+-   YouTube
+-   Drive
+-   Docs
+-   Sheets
+-   Slides
+-   Forms
+-   Apps Scripts
+-   Data Studio
+-   ...and a whole lot more
 
 ---
 
@@ -107,12 +107,13 @@ a nail.
 
 ## For this course, we'll focus on these:
 
-- [Search](http://google.com)
-- [Sheets](http://sheets.new)
-- [Forms](http://forms.new)
-- [Data Studio](http://datastudio.google.com)
-* ...but we will discuss the other ones, too
-  * (for the rest, Just Google It™)
+-   [Search](http://google.com)
+-   [Sheets](http://sheets.new)
+-   [Forms](http://forms.new)
+-   [Data Studio](http://datastudio.google.com)
+
+*   ...but we will discuss the other ones, too
+    -   (for the rest, Just Google It™)
 
 ---
 
@@ -120,9 +121,9 @@ a nail.
 
 # Google Search
 
-- [Beginner's guide to Google-fu](https://medium.com/analytics-vidhya/https-medium-com-what-is-googlefu-tips-and-tricks-to-be-googlefu-advanced-powersearching-with-google-f7e5661a8bca)
-- [Search Education](https://www.google.com/insidesearch/searcheducation/)
-- [Power Searching with Google](https://coursebuilder.withgoogle.com/sample/assess)
+-   [Beginner's guide to Google-fu](https://medium.com/analytics-vidhya/https-medium-com-what-is-googlefu-tips-and-tricks-to-be-googlefu-advanced-powersearching-with-google-f7e5661a8bca)
+-   [Search Education](https://www.google.com/insidesearch/searcheducation/)
+-   [Power Searching with Google](https://coursebuilder.withgoogle.com/sample/assess)
 
 ---
 
@@ -130,9 +131,9 @@ a nail.
 
 # Gmail
 
-- Huge storage space
-- Easy to use UI
-- One account to rule them all
+-   Huge storage space
+-   Easy to use UI
+-   One account to rule them all
 
 ---
 
@@ -140,9 +141,9 @@ a nail.
 
 # YouTube
 
-- 300 hours of video are uploaded to YouTube every minute
-- almost 5 billion videos are watched on Youtube every single day
-- great place to learn something new, for free
+-   300 hours of video are uploaded to YouTube every minute
+-   almost 5 billion videos are watched on Youtube every single day
+-   great place to learn something new, for free
 
 ---
 
@@ -150,11 +151,11 @@ a nail.
 
 # Google Drive
 
-- single source of truth
-- collaborating made easy
-- auto-saves
-- version control
-- automation available
+-   single source of truth
+-   collaborating made easy
+-   auto-saves
+-   version control
+-   automation available
 
 ---
 
@@ -162,9 +163,9 @@ a nail.
 
 # Google Docs
 
-- writing more efficiently
-  - voice typing
-- [docs.new](http://docs.new)
+-   writing more efficiently
+    -   voice typing
+-   [docs.new](http://docs.new)
 
 ---
 
@@ -172,9 +173,9 @@ a nail.
 
 # Google Sheets
 
-- can be connected to different apps
-  - e.g. Forms and Data Studio
-- [sheets.new](http://sheets.new)
+-   can be connected to different apps
+    -   e.g. Forms and Data Studio
+-   [sheets.new](http://sheets.new)
 
 ---
 
@@ -182,9 +183,9 @@ a nail.
 
 # Google Slides
 
-- easy to embed to different (Google) sites
-- easy to add drawings, images, and video
-- [slides.new](http://slides.new)
+-   easy to embed to different (Google) sites
+-   easy to add drawings, images, and video
+-   [slides.new](http://slides.new)
 
 ---
 
@@ -192,10 +193,10 @@ a nail.
 
 # Google Forms
 
-- create surveys in minutes
-- forms can be converted to a quiz
-- can upload files directly to Google Drive
-- [forms.new](http://forms.new)
+-   create surveys in minutes
+-   forms can be converted to a quiz
+-   can upload files directly to Google Drive
+-   [forms.new](http://forms.new)
 
 ---
 
@@ -203,10 +204,10 @@ a nail.
 
 # Google Apps Scripts
 
-- make your own workflows!
-- cloud-based scripting language
-- able to access different Google Apps thru APIs
-- see [some examples](https://www.labnol.org/internet/google-scripts/28281/)
+-   make your own workflows!
+-   cloud-based scripting language
+-   able to access different Google Apps thru APIs
+-   see [some examples](https://www.labnol.org/internet/google-scripts/28281/)
 
 ---
 
@@ -214,12 +215,12 @@ a nail.
 
 # Google Data Studio
 
-- turns your data into dashboards and reports that are:
-  - informative,
-  - easy to read,
-  - easy to share,
-  - and fully customizable
-- view the [gallery](https://datastudio.google.com/gallery) for examples
+-   turns your data into dashboards and reports that are:
+    -   informative,
+    -   easy to read,
+    -   easy to share,
+    -   and fully customizable
+-   view the [gallery](https://datastudio.google.com/gallery) for examples
 
 ---
 
@@ -261,7 +262,7 @@ Creating your own Data Studio Dashboard
 
 # Data Source
 
-- where the data for your reports will come from
+-   where the data for your reports will come from
 
 ---
 
@@ -269,7 +270,7 @@ Creating your own Data Studio Dashboard
 
 # Fields
 
-- the different "columns" of the data you collected
+-   the different "columns" of the data you collected
 
 ---
 
@@ -277,8 +278,8 @@ Creating your own Data Studio Dashboard
 
 # Dimensions
 
-- describes or categorizes your data
-- adding dimensions to a chart groups the data by those dimensions
+-   describes or categorizes your data
+-   adding dimensions to a chart groups the data by those dimensions
 
 ---
 
@@ -286,8 +287,8 @@ Creating your own Data Studio Dashboard
 
 # Metrics
 
-- is the result of applying an aggregation to a set of values
-- could come from the underlying data set, or be the result of implicitly or explicitly applying an aggregation function, such as `COUNT()`, `SUM()`, or `AVG()`
+-   is the result of applying an aggregation to a set of values
+-   could come from the underlying data set, or be the result of implicitly or explicitly applying an aggregation function, such as `COUNT()`, `SUM()`, or `AVG()`
 
 ---
 
@@ -342,9 +343,9 @@ Questions, concerns, clarifications, suggestions, violent reactions
 
 # Assignments
 
-- Help our researchers help our farmers
-- Try creating your own report in Data Studio
-- Evaluation
+-   Help our researchers help our farmers
+-   Try creating your own report in Data Studio
+-   Evaluation
 
 ---
 

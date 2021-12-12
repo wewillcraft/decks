@@ -13,4 +13,4 @@ Processing, and how it can make your life easier.
 
 ## Week 1
 
-- [Introduction to Electronic Data Processing](/edp101/w01/intro/)
+-   [Introduction to Electronic Data Processing](/edp101/w01/intro/)

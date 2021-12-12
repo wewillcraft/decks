@@ -5,9 +5,10 @@
 
 Public decks for the **We Will Craft** classes.
 
-## Courses
+## Decks
 
-- **EDP 101**: [Introduction to Electronic Data Processing](https://decks.willcraft.software/edp101/)
+-   [Setup](https://decks.willcraft.software/setup/)
+-   [EDP 101: Introduction to Electronic Data Processing](https://decks.willcraft.software/edp101/)
 
 ## Quick Start
 
@@ -20,7 +21,7 @@ Public decks for the **We Will Craft** classes.
 2. Start the server.
 
     ```bash
-    npm start
+    npm run server
     ```
 
 3. Open http://127.0.0.1:8080/.
